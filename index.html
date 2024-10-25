@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finderbit - Soluções em Software</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style type="text/css">
+    body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.navbar-brand {
+  color: #00CED1; /* Cyan */
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #00CED1;
+}
+
+.header-section {
+  background-color: #00CED1;
+  color: #fff;
+  height: 80vh;
+  background-image: url('https://www.codeminer42.com/img/header-background.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.header-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #32CD32; /* Verde */
+  border-color: #32CD32;
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#about {
+  background-color: #e6f7f7;
+}
+
+footer {
+  background-color: #00CED1;
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Finderbit</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header-section d-flex align-items-center justify-content-center text-center">
+    <div class="header-content">
+      <h1 class="display-4">Finderbit</h1>
+      <p class="lead">Transformando ideias em soluções digitais</p>
+      <a href="#services" class="btn btn-primary">Nossos Serviços</a>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Serviços</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-card text-center p-4">
+            <h3>Desenvolvimento Web</h3>
+            <p>Sites responsivos, sistemas e soluções web sob medida para seu negócio.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card text-center p-4">
+            <h3>Aplicativos Móveis</h3>
+            <p>Aplicativos intuitivos e funcionais para Android e iOS.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card text-center p-4">
+            <h3>Consultoria em TI</h3>
+            <p>Estratégias e suporte técnico para otimizar seus processos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre Nós</h2>
+      <p class="text-center">A Finderbit é uma empresa focada em inovação e qualidade, comprometida em fornecer soluções tecnológicas personalizadas para impulsionar o sucesso de nossos clientes.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contato</h2>
+      <p class="text-center">Entre em contato conosco para saber mais sobre nossos serviços.</p>
+      <form class="contact-form mx-auto" style="max-width: 500px;">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Nome">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="4" placeholder="Mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 Finderbit. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
